@@ -1,0 +1,68 @@
+/**
+ * STEP Design System — Tailwind CSS v4 Theme
+ * Import this file in your CSS to register all STEP tokens with Tailwind.
+ *
+ * Usage (in your global CSS):
+ *   @import "tailwindcss";
+ *   @import "@step/design-system/css/tailwind";
+ */
+
+@theme {
+  /* ─── Text Colors ─────────────────────────────────── */
+  --color-step-text-subtle: #c3c3c6;
+  --color-step-text-default: #fafaf9;
+  --color-step-text-on-bg: #333234;
+  --color-step-text-secondary: #6e6d71;
+  --color-step-text-disabled: #fafaf9;
+
+  /* ─── Action / Brand Colors ───────────────────────── */
+  --color-step-action-default: #554ceb;
+  --color-step-action-secondary-hover: #45444a;
+  --color-step-action-error-default: #dc4736;
+  --color-step-action-error-hover: #b0392c;
+
+  /* ─── Border Colors ───────────────────────────────── */
+  --color-step-border-secondary: #bebebf;
+  --color-step-border-outlined: #59595d;
+  --color-step-border-divider: #bebebf;
+  --color-step-border-error: #842b21;
+
+  /* ─── Surface Colors ──────────────────────────────── */
+  --color-step-surface-subtle: #eaeaeb;
+  --color-step-surface-dark: #322f37;
+
+  /* ─── Contrast ────────────────────────────────────── */
+  --color-step-contrast-on-primary: #fafaf9;
+  --color-step-contrast-on-secondary: #333234;
+
+  /* ─── Typography ──────────────────────────────────── */
+  --font-step-body: "Manrope", sans-serif;
+  --font-step-display: "Fredoka", sans-serif;
+
+  --text-step-xs: 10px;
+  --text-step-sm: 11px;
+  --text-step-body-small: 14px;
+  --text-step-body: 16px;
+  --text-step-h5: 24px;
+  --text-step-h4: 32px;
+  --text-step-h3: 40px;
+
+  /* ─── Spacing ─────────────────────────────────────── */
+  --spacing-step-1: 4px;
+  --spacing-step-2: 8px;
+  --spacing-step-3: 12px;
+  --spacing-step-4: 16px;
+  --spacing-step-5: 20px;
+  --spacing-step-6: 24px;
+  --spacing-step-8: 32px;
+  --spacing-step-10: 40px;
+  --spacing-step-12: 48px;
+  --spacing-step-16: 64px;
+
+  /* ─── Border Radius ───────────────────────────────── */
+  --radius-step-sm: 4px;
+  --radius-step-md: 8px;
+  --radius-step-lg: 12px;
+  --radius-step-xl: 16px;
+  --radius-step-pill: 999px;
+}

@@ -1,0 +1,92 @@
+/**
+ * STEP Design System — CSS Custom Properties
+ * Import this file in any project to get access to all design tokens as CSS variables.
+ *
+ * Usage:
+ *   @import "@step/design-system/css/variables";
+ */
+
+:root {
+  /* ─── Text Colors ─────────────────────────────────── */
+  --step-text-subtle: #c3c3c6;
+  --step-text-default: #fafaf9;
+  --step-text-on-bg: #333234;
+  --step-text-secondary: #6e6d71;
+  --step-text-disabled: #fafaf9;
+
+  /* ─── Action / Brand Colors ───────────────────────── */
+  --step-action-default: #554ceb;
+  --step-action-secondary-hover: #45444a;
+  --step-action-error-default: #dc4736;
+  --step-action-error-hover: #b0392c;
+
+  /* ─── Border Colors ───────────────────────────────── */
+  --step-border-secondary: #bebebf;
+  --step-border-outlined: #59595d;
+  --step-border-divider: #bebebf;
+  --step-border-error: #842b21;
+
+  /* ─── Surface Colors ──────────────────────────────── */
+  --step-surface-subtle: #eaeaeb;
+  --step-surface-dark: #322f37;
+
+  /* ─── Contrast / Foreground ───────────────────────── */
+  --step-contrast-on-primary: #fafaf9;
+  --step-contrast-on-secondary: #333234;
+
+  /* ─── Typography ──────────────────────────────────── */
+  --step-font-body: "Manrope", sans-serif;
+  --step-font-display: "Fredoka", sans-serif;
+
+  --step-font-weight-weak: 400;
+  --step-font-weight-default: 500;
+  --step-font-weight-medium: 500;
+  --step-font-weight-semibold: 600;
+  --step-font-weight-bold: 700;
+  --step-font-weight-heading: 700;
+
+  --step-font-size-xs: 10px;
+  --step-font-size-sm: 11px;
+  --step-font-size-body-small: 14px;
+  --step-font-size-body: 16px;
+  --step-font-size-h5: 24px;
+  --step-font-size-h4: 32px;
+  --step-font-size-h3: 40px;
+
+  --step-line-height-body-small: 16px;
+  --step-line-height-body: 24px;
+  --step-line-height-h5: 32px;
+  --step-line-height-h4: 40px;
+  --step-line-height-h3: 48px;
+
+  --step-tracking-tight: -1.2px;
+  --step-tracking-body: 0px;
+  --step-tracking-small: -0.42px;
+  --step-tracking-micro: -0.24px;
+  --step-tracking-wide: -0.32px;
+
+  /* ─── Spacing ─────────────────────────────────────── */
+  --step-space-0: 0px;
+  --step-space-1: 4px;
+  --step-space-2: 8px;
+  --step-space-3: 12px;
+  --step-space-4: 16px;
+  --step-space-5: 20px;
+  --step-space-6: 24px;
+  --step-space-8: 32px;
+  --step-space-10: 40px;
+  --step-space-12: 48px;
+  --step-space-16: 64px;
+
+  /* ─── Border Radius ───────────────────────────────── */
+  --step-radius-none: 0px;
+  --step-radius-sm: 4px;
+  --step-radius-md: 8px;
+  --step-radius-lg: 12px;
+  --step-radius-xl: 16px;
+  --step-radius-pill: 999px;
+
+  /* ─── Stroke Widths ───────────────────────────────── */
+  --step-stroke-emphasized: 2px;
+  --step-stroke-dropper: 4px;
+}

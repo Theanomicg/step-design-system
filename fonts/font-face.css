@@ -1,0 +1,12 @@
+/**
+ * STEP Design System — Font Face Declarations
+ * Import this file to load Manrope and Fredoka fonts.
+ *
+ * Usage:
+ *   @import "@step/design-system/css/fonts";
+ *
+ * Or use next/font for optimal loading:
+ *   import { Manrope, Fredoka } from "next/font/google";
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");

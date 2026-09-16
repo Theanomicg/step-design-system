@@ -1,0 +1,28 @@
+{
+  "text": {
+    "subtle": "#c3c3c6",
+    "default": "#fafaf9",
+    "on-bg": "#333234",
+    "secondary": "#6e6d71",
+    "disabled": "#fafaf9"
+  },
+  "action": {
+    "default": "#554ceb",
+    "secondary-hover": "#45444a",
+    "error-default": "#dc4736",
+    "error-hover": "#b0392c"
+  },
+  "border": {
+    "secondary": "#bebebf",
+    "outlined": "#59595d",
+    "divider": "#bebebf",
+    "error": "#842b21"
+  },
+  "surface": {
+    "subtle": "#eaeaeb"
+  },
+  "contrast": {
+    "on-primary": "#fafaf9",
+    "on-secondary": "#333234"
+  }
+}

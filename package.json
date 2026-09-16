@@ -1,0 +1,95 @@
+{
+  "name": "@step/design-system",
+  "version": "0.1.0",
+  "description": "STEP Design System — Tokens, Components, and Docs for consistent UI across all STEP projects",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./tokens": {
+      "import": "./dist/tokens/index.js",
+      "types": "./dist/tokens/index.d.ts"
+    },
+    "./tokens/colors": {
+      "import": "./dist/tokens/colors.js",
+      "types": "./dist/tokens/colors.d.ts"
+    },
+    "./tokens/typography": {
+      "import": "./dist/tokens/typography.js",
+      "types": "./dist/tokens/typography.d.ts"
+    },
+    "./tokens/spacing": {
+      "import": "./dist/tokens/spacing.js",
+      "types": "./dist/tokens/spacing.d.ts"
+    },
+    "./tokens/borders": {
+      "import": "./dist/tokens/borders.js",
+      "types": "./dist/tokens/borders.d.ts"
+    },
+    "./css/variables": "./css/variables.css",
+    "./css/tailwind": "./css/tailwind.css",
+    "./css/fonts": "./fonts/font-face.css",
+    "./tailwind": {
+      "import": "./dist/tailwind/index.js",
+      "types": "./dist/tailwind/index.d.ts"
+    },
+    "./components": {
+      "import": "./dist/components/index.js",
+      "types": "./dist/components/index.d.ts"
+    },
+    "./icons": {
+      "import": "./dist/icons/index.js",
+      "types": "./dist/icons/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "css",
+    "fonts",
+    "icons/svg",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true },
+    "react-dom": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.5.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^3.0.0"
+  },
+  "keywords": [
+    "design-system",
+    "tokens",
+    "step",
+    "figma",
+    "tailwind",
+    "css-variables"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/A5shi5h/step-design-system.git"
+  }
+}
